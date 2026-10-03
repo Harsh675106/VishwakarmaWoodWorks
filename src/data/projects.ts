@@ -13,7 +13,7 @@ export const projects: Project[] = [
   // ─────────────────────────────
   {
     id: 'bedroom-1',
-    category: 'Bedroom',
+    category: 'Bed',
     description: 'Custom wooden wardrobe',
     recent: true,
     image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030719/Screenshot_2026-10-03_175554.png',
@@ -21,7 +21,7 @@ export const projects: Project[] = [
   },
   {
     id: 'bedroom-2',
-    category: 'Bedroom',
+    category: 'Bed',
     description: 'Full-wall bedroom wardrobe with storage',
     recent: false,
     image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175705.png',
@@ -29,7 +29,7 @@ export const projects: Project[] = [
   },
   {
     id: 'bedroom-3',
-    category: 'Bedroom',
+    category: 'Bed',
     description: 'Custom bed with side storage',
     recent: false,
     image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175825.png',
@@ -37,7 +37,7 @@ export const projects: Project[] = [
   },
   {
     id: 'bedroom-4',
-    category: 'Bedroom',
+    category: 'Bed',
     description: 'Bedroom dressing table and mirror unit',
     recent: false,
     image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175422.png',
@@ -45,7 +45,7 @@ export const projects: Project[] = [
   },
   {
     id: 'bedroom-5',
-    category: 'Bedroom',
+    category: 'Bed',
     description: 'Bedside tables and bedroom storage',
     recent: false,
     image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030713/R.jpg',
@@ -192,7 +192,7 @@ export const projects: Project[] = [
 // ─────────────────────────────
 {
   id: 'mandir-1',
-  category: 'Mandirs',
+  category: 'Mandir',
   description: 'Custom wooden home mandir',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037142/efdde592-c262-4627-a06f-87761a15052e.png',
@@ -200,7 +200,7 @@ export const projects: Project[] = [
 },
 {
   id: 'mandir-2',
-  category: 'Mandirs',
+  category: 'Mandir',
   description: 'Wall-mounted wooden mandir with storage',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037158/461b8d1c-2840-4672-ad65-3fcd756e0ab7.png',
@@ -208,7 +208,7 @@ export const projects: Project[] = [
 },
 {
   id: 'mandir-3',
-  category: 'Mandirs',
+  category: 'Mandir',
   description: 'Traditional wooden mandir with carved details',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037018/8e3b77e8-9c65-4e2a-a7e4-b4e76992ee63.png',
@@ -216,7 +216,7 @@ export const projects: Project[] = [
 },
 {
   id: 'mandir-4',
-  category: 'Mandirs',
+  category: 'Mandir',
   description: 'Modern wooden mandir with LED lighting',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791036874/34eb03a8-ed9c-44e2-90a9-60e14bf1dae9.png',
@@ -224,9 +224,9 @@ export const projects: Project[] = [
 },
 {
   id: 'mandir-5',
-  category: 'Mandirs',
+  category: 'Mandir',
   description: 'Compact wooden pooja unit for home',
-    recent: true,
+    recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791036938/122cfcbb-6efc-4997-8c7f-47ee919c6364.png',
   alt: 'Compact custom wooden pooja unit for home'
 },
