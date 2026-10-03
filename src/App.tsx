@@ -455,7 +455,7 @@ function Projects({ open }: { open: (p: Project) => void }) {
           copy="A small selection of spaces and pieces. Replace these placeholders with your real Cloudinary project photographs."
         />
         <div className="project-grid">
-          {projects.slice(0, 4).map((p, i) => (
+          {projects.filter((project) => project.recent).map((p, i) => (
             <Reveal key={p.id}>
               <ProjectCard project={p} index={i} onOpen={() => open(p)} />
             </Reveal>
