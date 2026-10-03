@@ -9,48 +9,49 @@ export type Project = {
 
 export const projects: Project[] = [
   // ─────────────────────────────
-  // BEDROOM
+  // BED
   // ─────────────────────────────
+  
   {
-    id: 'bedroom-1',
-    category: 'Bed',
-    description: 'Custom wooden wardrobe',
-    recent: true,
-    image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030719/Screenshot_2026-10-03_175554.png',
-    alt: 'Custom wooden bedroom wardrobe'
-  },
-  {
-    id: 'bedroom-2',
-    category: 'Bed',
-    description: 'Full-wall bedroom wardrobe with storage',
-    recent: false,
-    image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175705.png',
-    alt: 'Full-wall bedroom wardrobe with storage'
-  },
-  {
-    id: 'bedroom-3',
-    category: 'Bed',
-    description: 'Custom bed with side storage',
-    recent: false,
-    image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175825.png',
-    alt: 'Custom wooden bed with side storage'
-  },
-  {
-    id: 'bedroom-4',
-    category: 'Bed',
-    description: 'Bedroom dressing table and mirror unit',
-    recent: false,
-    image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175422.png',
-    alt: 'Custom bedroom dressing table and mirror unit'
-  },
-  {
-    id: 'bedroom-5',
-    category: 'Bed',
-    description: 'Bedside tables and bedroom storage',
-    recent: false,
-    image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030713/R.jpg',
-    alt: 'Custom bedside tables and bedroom storage'
-  },
+  id: 'bed-1',
+  category: 'Bed',
+  description: 'Custom wooden bed design',
+  recent: true,
+  image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030719/Screenshot_2026-10-03_175554.png',
+  alt: 'Custom wooden bed design'
+},
+{
+  id: 'bed-2',
+  category: 'Bed',
+  description: 'Modern bedroom bed with integrated storage',
+  recent: false,
+  image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175705.png',
+  alt: 'Modern bedroom bed with integrated storage'
+},
+{
+  id: 'bed-3',
+  category: 'Bed',
+  description: 'Custom wooden bed with side storage',
+  recent: false,
+  image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175825.png',
+  alt: 'Custom wooden bed with side storage'
+},
+{
+  id: 'bedroom-4',
+  category: 'Bed',
+  description: 'Modern bed with bedroom dressing unit',
+  recent: false,
+  image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030715/Screenshot_2026-10-03_175422.png',
+  alt: 'Modern bedroom bed with Side table '
+},
+{
+  id: 'bedroom-5',
+  category: 'Bed',
+  description: 'Bedroom bed with matching bedside tables',
+  recent: false,
+  image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791030713/R.jpg',
+  alt: 'Bedroom bed with matching bedside tables'
+},
 
   // ─────────────────────────────
   // KITCHEN
