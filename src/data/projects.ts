@@ -149,7 +149,7 @@ export const projects: Project[] = [
 // ─────────────────────────────
 {
   id: 'led-panel-1',
-  category: 'LED Panels',
+  category: 'LED Panel',
   description: 'Modern wooden LED TV wall panel',
     recent: true,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791035476/71ca1837-0d91-48c1-8692-63a5e57a6eab.png',
@@ -157,7 +157,7 @@ export const projects: Project[] = [
 },
 {
   id: 'led-panel-2',
-  category: 'LED Panels',
+  category: 'LED Panel',
   description: 'Wooden fluted LED feature wall',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791035483/492cafb3-9e0d-41e3-9143-2bea7de409b5.png',
@@ -165,7 +165,7 @@ export const projects: Project[] = [
 },
 {
   id: 'led-panel-3',
-  category: 'LED Panels',
+  category: 'LED Panel',
   description: 'Custom LED panel with storage unit',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791035756/2e1a7f41-7e46-416a-936b-bbb24a65404b.png',
@@ -173,7 +173,7 @@ export const projects: Project[] = [
 },
 {
   id: 'led-panel-4',
-  category: 'LED Panels',
+  category: 'LED Panel',
   description: 'Designer wooden TV panel with warm lighting',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791036390/63a9bdc4-56bd-439f-92b5-1a48f2797255.png',
@@ -181,7 +181,7 @@ export const projects: Project[] = [
 },
 {
   id: 'led-panel-5',
-  category: 'LED Panels',
+  category: 'LED Panel',
   description: 'Full-wall wooden LED entertainment panel',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791036627/ae9cf9f2-2818-43e0-b1b5-c4d02eaf61a4.png',
@@ -237,7 +237,7 @@ export const projects: Project[] = [
 // ─────────────────────────────
 {
   id: 'dressing-table-1',
-  category: 'Dressing Tables',
+  category: 'Dressing Table',
   description: 'Custom wooden dressing table with mirror',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037383/0ebc8513-b4fa-4b85-8ba4-c1e2bf355fef.png',
@@ -245,7 +245,7 @@ export const projects: Project[] = [
 },
 {
   id: 'dressing-table-2',
-  category: 'Dressing Tables',
+  category: 'Dressing Table',
   description: 'Modern wall-mounted dressing unit',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037645/15bb38d4-9c1e-468b-b7f1-18d3b6dea1e0.png',
@@ -253,7 +253,7 @@ export const projects: Project[] = [
 },
 {
   id: 'dressing-table-3',
-  category: 'Dressing Tables',
+  category: 'Dressing Table',
   description: 'Bedroom dressing table with storage drawers',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037759/c6dd3ae5-4e95-4658-a185-eed634436866.png',
@@ -261,7 +261,7 @@ export const projects: Project[] = [
 },
 {
   id: 'dressing-table-4',
-  category: 'Dressing Tables',
+  category: 'Dressing Table',
   description: 'Full-height dressing unit with wardrobe',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037883/f2fcb64e-917e-4320-88a2-b4584ea8a1f2.png',
@@ -269,7 +269,7 @@ export const projects: Project[] = [
 },
 {
   id: 'dressing-table-5',
-  category: 'Dressing Tables',
+  category: 'Dressing Table',
   description: 'Designer dressing table with LED mirror',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791037985/27cad758-1624-4748-9ebe-417beee3b953.png',
@@ -281,7 +281,7 @@ export const projects: Project[] = [
 // ─────────────────────────────
 {
   id: 'door-1',
-  category: 'Doors',
+  category: 'Door',
   description: 'Custom wooden main entrance door',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791039229/96c29f62-2559-40ed-84e4-61db330ef3d2.png',
@@ -289,7 +289,7 @@ export const projects: Project[] = [
 },
 {
   id: 'door-2',
-  category: 'Doors',
+  category: 'Door',
   description: 'Modern wooden bedroom door',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791039336/d7ffd5fb-561c-4a16-a2be-2db8d099a2fc.png',
@@ -297,7 +297,7 @@ export const projects: Project[] = [
 },
 {
   id: 'door-3',
-  category: 'Doors',
+  category: 'Door',
   description: 'Designer wooden door with decorative panels',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791039472/40f599a1-77f6-4711-b30b-440f39d95e52.png',
@@ -305,7 +305,7 @@ export const projects: Project[] = [
 },
 {
   id: 'door-4',
-  category: 'Doors',
+  category: 'Door',
   description: 'Modern wooden door with glass detailing',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791039621/8a2c6860-fcb0-4937-87c5-dbc577c6c318.png',
@@ -313,7 +313,7 @@ export const projects: Project[] = [
 },
 {
   id: 'door-5',
-  category: 'Doors',
+  category: 'Door',
   description: 'Custom wooden double entrance door',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791039818/8760cdff-ae72-40b8-897d-4f334ca26b21.png',
@@ -325,7 +325,7 @@ export const projects: Project[] = [
 // ─────────────────────────────
 {
   id: 'wall-panel-1',
-  category: 'Wall Panels',
+  category: 'Wall Panel',
   description: 'Modern wooden feature wall paneling',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791040056/8d5ab716-e5ee-48b9-b2b0-f57680777d98.png',
@@ -333,7 +333,7 @@ export const projects: Project[] = [
 },
 {
   id: 'wall-panel-2',
-  category: 'Wall Panels',
+  category: 'Wall Panel',
   description: 'Fluted wooden wall panel design',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791040134/c995ebea-49b9-4df2-8b87-1d2d354cf46a.png',
@@ -341,7 +341,7 @@ export const projects: Project[] = [
 },
 {
   id: 'wall-panel-3',
-  category: 'Wall Panels',
+  category: 'Wall Panel',
   description: 'Bedroom wooden accent wall',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791040145/53cafbe0-4b31-4cfe-a8d1-5cd130107019.png',
@@ -349,7 +349,7 @@ export const projects: Project[] = [
 },
 {
   id: 'wall-panel-4',
-  category: 'Wall Panels',
+  category: 'Wall Panel',
   description: 'Living room decorative wall panel',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791040353/f0e73fca-295c-4f3b-9787-43cb056dc372.png',
@@ -357,7 +357,7 @@ export const projects: Project[] = [
 },
 {
   id: 'wall-panel-5',
-  category: 'Wall Panels',
+  category: 'Wall Panel',
   description: 'Wooden wall panel with integrated lighting',
     recent: false,
   image: 'https://res.cloudinary.com/bj5daffd/image/upload/v1791040401/32188e11-78de-4f42-840f-4a32243e0f08.png',
