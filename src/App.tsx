@@ -452,7 +452,7 @@ function Projects({ open }: { open: (p: Project) => void }) {
               Our recent <em>work.</em>
             </>
           }
-          copy="A small selection of spaces and pieces. Replace these placeholders with your real Cloudinary project photographs."
+
         />
         <div className="project-grid">
           {projects.filter((project) => project.recent).map((p, i) => (
@@ -691,7 +691,7 @@ function Why() {
             "Direct communication",
             "Attention to detail",
             "Space-focused designs",
-            "On-site work where needed",
+            "On-site work ",
           ].map((x) => (
             <li key={x}>
               <span>↗</span>
