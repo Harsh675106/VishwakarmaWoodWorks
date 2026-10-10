@@ -51,15 +51,29 @@ function DataImage({
   alt,
   label,
   className = "",
+  sizes = "(max-width: 720px) 100vw, 50vw",
+  priority = false,
 }: {
   src?: string;
   alt?: string;
   label: string;
   className?: string;
+  sizes?: string;
+  priority?: boolean;
 }) {
-  const url = cloudinaryImage(src);
+  const widths = [480, 768, 1200, 1600];
+  const url = cloudinaryImage(src, 1200);
   return url ? (
-    <img className={className} src={url} alt={alt || label} loading="lazy" />
+    <img
+      className={className}
+      src={url}
+      srcSet={widths.map((width) => `${cloudinaryImage(src, width)} ${width}w`).join(", ")}
+      sizes={sizes}
+      alt={alt || label}
+      loading={priority ? "eager" : "lazy"}
+      fetchPriority={priority ? "high" : "auto"}
+      decoding="async"
+    />
   ) : (
     <Placeholder label={label} className={className} />
   );
@@ -189,6 +203,8 @@ function Hero() {
           alt="Description of your work"
           label="Your signature project"
           className="hero-image"
+          sizes="(max-width: 720px) 100vw, 50vw"
+          priority
         />
         <div className="hero-note">
           <span>01</span>
@@ -398,6 +414,7 @@ function ProjectCard({
         alt={project.alt}
         label={project.category}
         className="project-image"
+        sizes="(max-width: 720px) 100vw, 60vw"
       />
       <span className="project-shade" />
       <div className="project-meta">
@@ -820,6 +837,8 @@ function Lightbox({
               src={project.image}
               alt={project.alt}
               label={project.category}
+              sizes="(max-width: 720px) 100vw, 760px"
+              priority
             />
             <p>{project.category}</p>
             <h2>{project.description}</h2>
